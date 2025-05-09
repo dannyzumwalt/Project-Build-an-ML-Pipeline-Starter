@@ -37,7 +37,7 @@ def go(args):
 
     # log the new data.
     artifact = wandb.Artifact(
-     args.output_artifact,
+     name=args.output_artifact,
      type=args.output_type,
      description=args.output_description,
  )
@@ -54,43 +54,43 @@ if __name__ == "__main__":
     parser.add_argument(
         "--input_artifact", 
         type = str,
-        help = "Inital artifact to be cleaned",
-        required = True
+        help = "Initial artifact to be cleaned",
+        required = True,
     )
 
     parser.add_argument(
         "--output_artifact", 
         type = str,
         help = "Output artifact for cleaned data",
-        required = True
+        required = True,
     )
 
     parser.add_argument(
         "--output_type", 
         type = str,
         help = "Type of the output dataset",
-        required = True
+        required = True,
     )
 
     parser.add_argument(
         "--output_description", 
         type = str,
         help = "Description of the output dataset",
-        required = True
+        required = True,
     )
 
     parser.add_argument(
         "--min_price", 
         type = float,
         help = "Minimum house price to be considered",
-        required = True
+        required = True,
     )
 
     parser.add_argument(
         "--max_price",
         type = float,
         help = "Maximum house price to be considered",
-        required = True
+        required = True,
     )
 
 
