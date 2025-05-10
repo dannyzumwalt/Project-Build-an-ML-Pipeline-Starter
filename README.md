@@ -7,7 +7,7 @@ to be retrained with the same cadence, necessitating an end-to-end pipeline that
 In this project you will build such a pipeline.
 
 ## Links 
-* Link to my GitHub project: https://github.com/udacity/Project-Build-an-ML-Pipeline-Starter
+* Link to my GitHub project: https://github.com/dannyzumwalt/Project-Build-an-ML-Pipeline-Starter
 * Link to Weights and Biases Report (wandb): https://api.wandb.ai/links/dannyzumwalt-wgu/gwaof3qh 
 
 ## Table of contents
