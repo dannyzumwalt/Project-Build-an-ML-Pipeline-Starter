@@ -6,6 +6,10 @@ to be retrained with the same cadence, necessitating an end-to-end pipeline that
 
 In this project you will build such a pipeline.
 
+Link to Weights and Biases Report (wandb): 
+https://api.wandb.ai/links/dannyzumwalt-wgu/gwaof3qh 
+
+
 ## Table of contents
 
 - [Preliminary steps](#preliminary-steps)
